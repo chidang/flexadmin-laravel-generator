@@ -10,8 +10,12 @@ composer dumpautoload
 ```
 
 ## Generator commands:
+
 ```
+php artisan techamz.scaffold:controller YourModel
 php artisan techamz:model YourModel
+php artisan techamz:scaffold YourModel
+php artisan techamz:rollback YourModel scaffold
 ```
 
 ## Publish Laravel Generator Templates
