@@ -1,4 +1,4 @@
-# TechAmz Laravel Generator
+# TechAmz Laravel Generator (CRUD)
 
 ## Ensure composer detect new namespace
 
@@ -23,3 +23,7 @@ php artisan techamz:rollback YourModel scaffold
 ```
 php artisan vendor:publish --tag=flex-laravel-generator-templates
 ```
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
