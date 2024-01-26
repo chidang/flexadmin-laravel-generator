@@ -1,5 +1,5 @@
 {
-    "name": "techamz/generator",
+    "name": "techamz/laravel-generator",
     "description": "Techamz Laravel Generator",
     "type": "library",
     "require": {
