@@ -12,7 +12,7 @@ class ModelGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz:model';
+    protected $name = 'flex:model';
 
     /**
      * The console command description.

@@ -12,7 +12,7 @@ class ControllerGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz.scaffold:controller';
+    protected $name = 'flex.scaffold:controller';
 
     /**
      * The console command description.

@@ -13,7 +13,7 @@ class TestsGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz.api:tests';
+    protected $name = 'flex.api:tests';
 
     /**
      * The console command description.

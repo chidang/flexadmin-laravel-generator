@@ -12,7 +12,7 @@ class RepositoryGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz:repository';
+    protected $name = 'flex:repository';
 
     /**
      * The console command description.

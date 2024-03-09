@@ -9,7 +9,7 @@ class APIScaffoldGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz:api_scaffold';
+    protected $name = 'flex:api_scaffold';
 
     /**
      * The console command description.

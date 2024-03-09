@@ -1,4 +1,4 @@
-# TechAmz Laravel Generator (CRUD)
+# FlexAdmin Laravel Generator (CRUD)
 
 ## Ensure composer detect new namespace
 
@@ -12,10 +12,10 @@ composer dumpautoload
 ## Generator commands:
 
 ```
-php artisan techamz.scaffold:controller YourModel
-php artisan techamz:model YourModel
-php artisan techamz:scaffold YourModel
-php artisan techamz:rollback YourModel scaffold
+php artisan flex.scaffold:controller YourModel
+php artisan flex:model YourModel
+php artisan flex:scaffold YourModel
+php artisan flex:rollback YourModel scaffold
 ```
 
 ## Publish Laravel Generator Templates

@@ -11,7 +11,7 @@ class GeneratorPublishCommand extends PublishBaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz:publish';
+    protected $name = 'flex:publish';
 
     /**
      * The console command description.

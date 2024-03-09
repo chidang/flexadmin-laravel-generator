@@ -12,7 +12,7 @@ class APIControllerGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz.api:controller';
+    protected $name = 'flex.api:controller';
 
     /**
      * The console command description.

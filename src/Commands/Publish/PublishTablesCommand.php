@@ -13,7 +13,7 @@ class PublishTablesCommand extends PublishBaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz.publish:tables';
+    protected $name = 'flex.publish:tables';
 
     /**
      * The console command description.

@@ -11,7 +11,7 @@ class ScaffoldGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz:scaffold';
+    protected $name = 'flex:scaffold';
 
     /**
      * The console command description.

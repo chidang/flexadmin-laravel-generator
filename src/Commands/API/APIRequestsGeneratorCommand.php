@@ -12,7 +12,7 @@ class APIRequestsGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz.api:requests';
+    protected $name = 'flex.api:requests';
 
     /**
      * The console command description.

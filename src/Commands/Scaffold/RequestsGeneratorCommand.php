@@ -12,7 +12,7 @@ class RequestsGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz.scaffold:requests';
+    protected $name = 'flex.scaffold:requests';
 
     /**
      * The console command description.

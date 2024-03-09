@@ -12,7 +12,7 @@ class MigrationGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz:migration';
+    protected $name = 'flex:migration';
 
     /**
      * The console command description.

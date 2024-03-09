@@ -12,7 +12,7 @@ class ViewsGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz.scaffold:views';
+    protected $name = 'flex.scaffold:views';
 
     /**
      * The console command description.

@@ -9,7 +9,7 @@ class PublishUserCommand extends PublishBaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz.publish:user';
+    protected $name = 'flex.publish:user';
 
     /**
      * The console command description.

@@ -24,7 +24,7 @@ class RollbackGeneratorCommand extends BaseCommand
 {
     public GeneratorConfig $config;
 
-    protected $name = 'techamz:rollback';
+    protected $name = 'flex:rollback';
 
     protected $description = 'Rollback a full CRUD API and Scaffold for given model';
 

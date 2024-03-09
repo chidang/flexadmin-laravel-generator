@@ -11,7 +11,7 @@ class APIGeneratorCommand extends BaseCommand
      *
      * @var string
      */
-    protected $name = 'techamz:api';
+    protected $name = 'flex:api';
 
     /**
      * The console command description.
