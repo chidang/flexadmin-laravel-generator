@@ -160,7 +160,7 @@ class GeneratorField
             }
         }
 
-        $this->migrationText .= ';';
+        $this->migrationText .= '->nullable();';
     }
 
     public static function parseFieldFromConsoleInput(string $fieldInput, string $validations = ''): self
