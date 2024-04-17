@@ -25,9 +25,12 @@ class {{ $config->modelNames->name }} extends Model
         {!! $fillables !!}
     ];
 
-    protected $casts = [
-        {!! $casts !!}
-    ];
+    protected function casts(): array
+    {
+        return [
+            {!! $casts !!}
+        ];
+    }
 
     {!! $relations !!}
 }

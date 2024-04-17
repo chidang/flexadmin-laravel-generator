@@ -110,7 +110,12 @@ class GeneratorField
         $this->migrationText .= $this->dbType."('".$this->name."'";
 
         if (!count($this->dbTypeParams) and !count($this->dbExtraFunctions)) {
-            $this->migrationText .= ');';
+            $this->migrationText .= ')';
+            if ($this->name !== 'id') {
+                $this->migrationText .= '->nullable();';
+            } else {
+                $this->migrationText .= ';';
+            }
 
             return;
         }
@@ -160,7 +165,7 @@ class GeneratorField
             }
         }
 
-        $this->migrationText .= '->nullable();';
+        $this->migrationText .= ';';
     }
 
     public static function parseFieldFromConsoleInput(string $fieldInput, string $validations = ''): self
